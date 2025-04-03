@@ -2,7 +2,7 @@
 <p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [4, 1, 3, 9, 7]</span>
 <span style="font-size: 18px;"><strong>Output: </strong>[1, 3, 4, 7, 9]</span>
-<span style="font-size: 18px;"><strong>Explanation: </strong>Maintain sorted (in bold) and unsorted subarrays. Select 1. Array becomes <strong>1</strong> 4 3 9 7. Select 3. Array becomes <strong>1 3</strong> 4 9 7. Select 4. Array becomes <strong>1 3 4</strong> 9 7. Select 7. Array becomes <strong>1 3 4 7</strong> 9. Select 9. Array becomes <strong>1 3 4 7 9</strong></span></pre>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Maintain sorted (in bold) and unsorted subarrays. Select 1. Array becomes <strong>1</strong> 4 3 9 7. Select 3. Array becomes <strong>1 3</strong> 4 9 7. Select 4. Array becomes <strong>1 3 4</strong> 9 7. Select 7. Array becomes <strong>1 3 4 7</strong> 9. Select 9. Array becomes <strong>1 3 4 7 9.</strong></span></pre>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]</span>
 <span style="font-size: 18px;"><strong>Output: </strong>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br></span></pre>
 <pre><strong>Input: </strong>arr[] = [38, 31, 20, 14, 30]
