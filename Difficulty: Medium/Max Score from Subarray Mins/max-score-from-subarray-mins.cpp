@@ -8,21 +8,24 @@ using namespace std;
 
 
 class Solution {
-  public:
-    // Function to find pair with maximum sum
+    public:
+      // Function to find pair with maximum sum
     int pairWithMaxSum(vector<int> &arr) {
-        int maxSum = 0;
+          //most optimal
+          //we also compare the adjacent two biggest
+          //and the then find smallest and 2nd smallest
+          //and those two's sum would yield max sum
+        int maxSum=0;
         int n=arr.size();
-        for (int i = 0; i < n - 1; i++) {
-            int small = min(arr[i], arr[i + 1]);
-            int secondSmall = max(arr[i], arr[i + 1]);
-            int score = small + secondSmall;
-            maxSum = max(maxSum, score);
+        for (int i=0;i<n-1;i++) {
+            int small=min(arr[i], arr[i+1]);
+            int secondSmall=max(arr[i],arr[i+1]);
+            int score=small+secondSmall;
+            maxSum=max(maxSum, score);
         }
         return maxSum;
     }
 };
-
 
 
 //{ Driver Code Starts.
