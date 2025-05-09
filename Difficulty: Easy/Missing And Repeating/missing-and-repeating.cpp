@@ -10,7 +10,7 @@ class Solution {
   public:
     vector<int> findTwoElement(vector<int>& arr) {
         // code here
-        //brute force
+        //better approach
         int n=arr.size();
         vector<int> hash(n+1,0);
         for (int i=0;i<n;i++){
