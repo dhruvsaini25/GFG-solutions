@@ -1,7 +1,7 @@
 class Solution {
   public:
     int numberofgasstation(vector<int>&stations, long double dist){
-        //optimal approach
+        //optimal approach using binary search
         int n=stations.size();
         int cnt=0;
         for (int i=1;i<n;i++){
@@ -11,7 +11,6 @@ class Solution {
         return cnt;
     }
     double findSmallestMaxDist(vector<int> &stations, int k) {
-        // Code here
         int n=stations.size();
         long double low=0;
         long double high=0;
