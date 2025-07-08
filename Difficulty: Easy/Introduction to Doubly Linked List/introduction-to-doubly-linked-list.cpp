@@ -25,7 +25,6 @@ public:
 class Solution {
   public:
     Node* constructDLL(vector<int>& arr) {
-        // code here
         int n=arr.size();
         if (n==0) return NULL;
         Node* head=new Node(arr[0]);
