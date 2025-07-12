@@ -12,7 +12,7 @@ class Solution {
   public:
     // Function to insert a new node at given position in doubly linked list.
     Node *addNode(Node *head, int pos, int data) {
-        // code here
+        //this is the most optimal way (remember, dont look for optimal way)
         Node* newNode= new Node(data);
         Node* current=head;
         for (int i=0;i<pos && current!=nullptr; i++){
